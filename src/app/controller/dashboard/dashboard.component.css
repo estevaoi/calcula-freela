@@ -1,0 +1,18 @@
+.elemento {}
+
+.elemento:hover {
+  background-color: #d1d1d1;
+}
+
+.elemento:hover .texto-elemento {
+  border: solid 1px #d1d1d1;
+}
+
+.elemento .texto-elemento {
+  border-radius: 6px;
+  border: solid 1px #FFF;
+}
+
+.elemento .texto-elemento:hover {
+  border: solid 1px #a8a8a8;
+}
